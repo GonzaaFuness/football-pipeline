@@ -1,0 +1,452 @@
+[2026-07-23T14:00:12.155+0000] {processor.py:186} INFO - Started process (PID=268) to work on /opt/airflow/dags/football_dag.py
+[2026-07-23T14:00:12.161+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/football_dag.py for tasks to queue
+[2026-07-23T14:00:12.180+0000] {logging_mixin.py:190} INFO - [2026-07-23T14:00:12.179+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/football_dag.py
+[2026-07-23T14:00:14.997+0000] {processor.py:925} INFO - DAG(s) 'football_world_cup_pipeline' retrieved from /opt/airflow/dags/football_dag.py
+[2026-07-23T14:00:15.442+0000] {logging_mixin.py:190} INFO - [2026-07-23T14:00:15.441+0000] {override.py:1912} INFO - Created Permission View: can edit on DAG:football_world_cup_pipeline
+[2026-07-23T14:00:15.463+0000] {logging_mixin.py:190} INFO - [2026-07-23T14:00:15.462+0000] {override.py:1912} INFO - Created Permission View: can delete on DAG:football_world_cup_pipeline
+[2026-07-23T14:00:15.475+0000] {logging_mixin.py:190} INFO - [2026-07-23T14:00:15.475+0000] {override.py:1912} INFO - Created Permission View: can read on DAG:football_world_cup_pipeline
+[2026-07-23T14:00:15.494+0000] {logging_mixin.py:190} INFO - [2026-07-23T14:00:15.494+0000] {override.py:1912} INFO - Created Permission View: can create on DAG Run:football_world_cup_pipeline
+[2026-07-23T14:00:15.508+0000] {logging_mixin.py:190} INFO - [2026-07-23T14:00:15.507+0000] {override.py:1912} INFO - Created Permission View: menu access on DAG Run:football_world_cup_pipeline
+[2026-07-23T14:00:15.527+0000] {logging_mixin.py:190} INFO - [2026-07-23T14:00:15.526+0000] {override.py:1912} INFO - Created Permission View: can delete on DAG Run:football_world_cup_pipeline
+[2026-07-23T14:00:15.546+0000] {logging_mixin.py:190} INFO - [2026-07-23T14:00:15.545+0000] {override.py:1912} INFO - Created Permission View: can read on DAG Run:football_world_cup_pipeline
+[2026-07-23T14:00:15.548+0000] {logging_mixin.py:190} INFO - [2026-07-23T14:00:15.547+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-23T14:00:15.564+0000] {logging_mixin.py:190} INFO - [2026-07-23T14:00:15.564+0000] {dag.py:3262} INFO - Creating ORM DAG for football_world_cup_pipeline
+[2026-07-23T14:00:15.582+0000] {logging_mixin.py:190} INFO - [2026-07-23T14:00:15.582+0000] {dag.py:4180} INFO - Setting next_dagrun for football_world_cup_pipeline to 2026-07-23 06:00:00+00:00, run_after=2026-07-23 12:00:00+00:00
+[2026-07-23T14:00:15.634+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/football_dag.py took 3.512 seconds
+[2026-07-23T14:00:46.125+0000] {processor.py:186} INFO - Started process (PID=276) to work on /opt/airflow/dags/football_dag.py
+[2026-07-23T14:00:46.128+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/football_dag.py for tasks to queue
+[2026-07-23T14:00:46.138+0000] {logging_mixin.py:190} INFO - [2026-07-23T14:00:46.135+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/football_dag.py
+[2026-07-23T14:00:47.240+0000] {processor.py:925} INFO - DAG(s) 'football_world_cup_pipeline' retrieved from /opt/airflow/dags/football_dag.py
+[2026-07-23T14:00:47.277+0000] {logging_mixin.py:190} INFO - [2026-07-23T14:00:47.276+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-23T14:00:47.304+0000] {logging_mixin.py:190} INFO - [2026-07-23T14:00:47.304+0000] {dag.py:4180} INFO - Setting next_dagrun for football_world_cup_pipeline to 2026-07-23 06:00:00+00:00, run_after=2026-07-23 12:00:00+00:00
+[2026-07-23T14:00:47.337+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/football_dag.py took 1.233 seconds
+[2026-07-23T14:01:17.420+0000] {processor.py:186} INFO - Started process (PID=285) to work on /opt/airflow/dags/football_dag.py
+[2026-07-23T14:01:17.427+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/football_dag.py for tasks to queue
+[2026-07-23T14:01:17.433+0000] {logging_mixin.py:190} INFO - [2026-07-23T14:01:17.432+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/football_dag.py
+[2026-07-23T14:01:19.974+0000] {processor.py:925} INFO - DAG(s) 'football_world_cup_pipeline' retrieved from /opt/airflow/dags/football_dag.py
+[2026-07-23T14:01:20.042+0000] {logging_mixin.py:190} INFO - [2026-07-23T14:01:20.041+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-23T14:01:20.083+0000] {logging_mixin.py:190} INFO - [2026-07-23T14:01:20.083+0000] {dag.py:4180} INFO - Setting next_dagrun for football_world_cup_pipeline to 2026-07-23 06:00:00+00:00, run_after=2026-07-23 12:00:00+00:00
+[2026-07-23T14:01:20.140+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/football_dag.py took 2.732 seconds
+[2026-07-23T14:01:50.591+0000] {processor.py:186} INFO - Started process (PID=293) to work on /opt/airflow/dags/football_dag.py
+[2026-07-23T14:01:50.593+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/football_dag.py for tasks to queue
+[2026-07-23T14:01:50.599+0000] {logging_mixin.py:190} INFO - [2026-07-23T14:01:50.598+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/football_dag.py
+[2026-07-23T14:01:51.381+0000] {processor.py:925} INFO - DAG(s) 'football_world_cup_pipeline' retrieved from /opt/airflow/dags/football_dag.py
+[2026-07-23T14:01:51.413+0000] {logging_mixin.py:190} INFO - [2026-07-23T14:01:51.412+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-23T14:01:51.438+0000] {logging_mixin.py:190} INFO - [2026-07-23T14:01:51.438+0000] {dag.py:4180} INFO - Setting next_dagrun for football_world_cup_pipeline to 2026-07-23 06:00:00+00:00, run_after=2026-07-23 12:00:00+00:00
+[2026-07-23T14:01:51.470+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/football_dag.py took 0.888 seconds
+[2026-07-23T14:02:21.877+0000] {processor.py:186} INFO - Started process (PID=301) to work on /opt/airflow/dags/football_dag.py
+[2026-07-23T14:02:21.880+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/football_dag.py for tasks to queue
+[2026-07-23T14:02:21.886+0000] {logging_mixin.py:190} INFO - [2026-07-23T14:02:21.885+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/football_dag.py
+[2026-07-23T14:02:22.699+0000] {processor.py:925} INFO - DAG(s) 'football_world_cup_pipeline' retrieved from /opt/airflow/dags/football_dag.py
+[2026-07-23T14:02:22.741+0000] {logging_mixin.py:190} INFO - [2026-07-23T14:02:22.740+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-23T14:02:22.785+0000] {logging_mixin.py:190} INFO - [2026-07-23T14:02:22.785+0000] {dag.py:4180} INFO - Setting next_dagrun for football_world_cup_pipeline to 2026-07-23 06:00:00+00:00, run_after=2026-07-23 12:00:00+00:00
+[2026-07-23T14:02:22.822+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/football_dag.py took 0.953 seconds
+[2026-07-23T14:02:53.252+0000] {processor.py:186} INFO - Started process (PID=309) to work on /opt/airflow/dags/football_dag.py
+[2026-07-23T14:02:53.257+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/football_dag.py for tasks to queue
+[2026-07-23T14:02:53.264+0000] {logging_mixin.py:190} INFO - [2026-07-23T14:02:53.263+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/football_dag.py
+[2026-07-23T14:02:54.038+0000] {processor.py:925} INFO - DAG(s) 'football_world_cup_pipeline' retrieved from /opt/airflow/dags/football_dag.py
+[2026-07-23T14:02:54.069+0000] {logging_mixin.py:190} INFO - [2026-07-23T14:02:54.068+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-23T14:02:54.093+0000] {logging_mixin.py:190} INFO - [2026-07-23T14:02:54.093+0000] {dag.py:4180} INFO - Setting next_dagrun for football_world_cup_pipeline to 2026-07-23 06:00:00+00:00, run_after=2026-07-23 12:00:00+00:00
+[2026-07-23T14:02:54.121+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/football_dag.py took 0.891 seconds
+[2026-07-23T14:03:24.559+0000] {processor.py:186} INFO - Started process (PID=323) to work on /opt/airflow/dags/football_dag.py
+[2026-07-23T14:03:24.563+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/football_dag.py for tasks to queue
+[2026-07-23T14:03:24.572+0000] {logging_mixin.py:190} INFO - [2026-07-23T14:03:24.571+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/football_dag.py
+[2026-07-23T14:03:26.644+0000] {processor.py:925} INFO - DAG(s) 'football_world_cup_pipeline' retrieved from /opt/airflow/dags/football_dag.py
+[2026-07-23T14:03:26.691+0000] {logging_mixin.py:190} INFO - [2026-07-23T14:03:26.691+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-23T14:03:26.729+0000] {logging_mixin.py:190} INFO - [2026-07-23T14:03:26.728+0000] {dag.py:4180} INFO - Setting next_dagrun for football_world_cup_pipeline to 2026-07-23 06:00:00+00:00, run_after=2026-07-23 12:00:00+00:00
+[2026-07-23T14:03:26.783+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/football_dag.py took 2.240 seconds
+[2026-07-23T14:03:57.027+0000] {processor.py:186} INFO - Started process (PID=332) to work on /opt/airflow/dags/football_dag.py
+[2026-07-23T14:03:57.030+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/football_dag.py for tasks to queue
+[2026-07-23T14:03:57.035+0000] {logging_mixin.py:190} INFO - [2026-07-23T14:03:57.034+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/football_dag.py
+[2026-07-23T14:03:58.412+0000] {processor.py:925} INFO - DAG(s) 'football_world_cup_pipeline' retrieved from /opt/airflow/dags/football_dag.py
+[2026-07-23T14:03:58.471+0000] {logging_mixin.py:190} INFO - [2026-07-23T14:03:58.470+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-23T14:03:58.556+0000] {logging_mixin.py:190} INFO - [2026-07-23T14:03:58.555+0000] {dag.py:4180} INFO - Setting next_dagrun for football_world_cup_pipeline to 2026-07-23 06:00:00+00:00, run_after=2026-07-23 12:00:00+00:00
+[2026-07-23T14:03:58.619+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/football_dag.py took 1.607 seconds
+[2026-07-23T14:04:28.774+0000] {processor.py:186} INFO - Started process (PID=340) to work on /opt/airflow/dags/football_dag.py
+[2026-07-23T14:04:28.777+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/football_dag.py for tasks to queue
+[2026-07-23T14:04:28.788+0000] {logging_mixin.py:190} INFO - [2026-07-23T14:04:28.786+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/football_dag.py
+[2026-07-23T14:04:30.123+0000] {processor.py:925} INFO - DAG(s) 'football_world_cup_pipeline' retrieved from /opt/airflow/dags/football_dag.py
+[2026-07-23T14:04:30.157+0000] {logging_mixin.py:190} INFO - [2026-07-23T14:04:30.157+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-23T14:04:30.201+0000] {logging_mixin.py:190} INFO - [2026-07-23T14:04:30.200+0000] {dag.py:4180} INFO - Setting next_dagrun for football_world_cup_pipeline to 2026-07-23 06:00:00+00:00, run_after=2026-07-23 12:00:00+00:00
+[2026-07-23T14:04:30.236+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/football_dag.py took 1.472 seconds
+[2026-07-23T14:05:00.599+0000] {processor.py:186} INFO - Started process (PID=349) to work on /opt/airflow/dags/football_dag.py
+[2026-07-23T14:05:00.602+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/football_dag.py for tasks to queue
+[2026-07-23T14:05:00.608+0000] {logging_mixin.py:190} INFO - [2026-07-23T14:05:00.607+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/football_dag.py
+[2026-07-23T14:05:01.656+0000] {processor.py:925} INFO - DAG(s) 'football_world_cup_pipeline' retrieved from /opt/airflow/dags/football_dag.py
+[2026-07-23T14:05:01.689+0000] {logging_mixin.py:190} INFO - [2026-07-23T14:05:01.689+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-23T14:05:01.719+0000] {logging_mixin.py:190} INFO - [2026-07-23T14:05:01.719+0000] {dag.py:4180} INFO - Setting next_dagrun for football_world_cup_pipeline to 2026-07-23 06:00:00+00:00, run_after=2026-07-23 12:00:00+00:00
+[2026-07-23T14:05:01.755+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/football_dag.py took 1.167 seconds
+[2026-07-23T14:05:32.179+0000] {processor.py:186} INFO - Started process (PID=358) to work on /opt/airflow/dags/football_dag.py
+[2026-07-23T14:05:32.182+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/football_dag.py for tasks to queue
+[2026-07-23T14:05:32.187+0000] {logging_mixin.py:190} INFO - [2026-07-23T14:05:32.186+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/football_dag.py
+[2026-07-23T14:05:33.290+0000] {processor.py:925} INFO - DAG(s) 'football_world_cup_pipeline' retrieved from /opt/airflow/dags/football_dag.py
+[2026-07-23T14:05:33.346+0000] {logging_mixin.py:190} INFO - [2026-07-23T14:05:33.345+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-23T14:05:33.385+0000] {logging_mixin.py:190} INFO - [2026-07-23T14:05:33.385+0000] {dag.py:4180} INFO - Setting next_dagrun for football_world_cup_pipeline to 2026-07-23 06:00:00+00:00, run_after=2026-07-23 12:00:00+00:00
+[2026-07-23T14:05:33.449+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/football_dag.py took 1.285 seconds
+[2026-07-23T14:06:03.956+0000] {processor.py:186} INFO - Started process (PID=366) to work on /opt/airflow/dags/football_dag.py
+[2026-07-23T14:06:03.959+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/football_dag.py for tasks to queue
+[2026-07-23T14:06:03.968+0000] {logging_mixin.py:190} INFO - [2026-07-23T14:06:03.967+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/football_dag.py
+[2026-07-23T14:06:04.792+0000] {processor.py:925} INFO - DAG(s) 'football_world_cup_pipeline' retrieved from /opt/airflow/dags/football_dag.py
+[2026-07-23T14:06:04.828+0000] {logging_mixin.py:190} INFO - [2026-07-23T14:06:04.828+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-23T14:06:04.864+0000] {logging_mixin.py:190} INFO - [2026-07-23T14:06:04.864+0000] {dag.py:4180} INFO - Setting next_dagrun for football_world_cup_pipeline to 2026-07-23 06:00:00+00:00, run_after=2026-07-23 12:00:00+00:00
+[2026-07-23T14:06:04.900+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/football_dag.py took 0.953 seconds
+[2026-07-23T14:06:35.423+0000] {processor.py:186} INFO - Started process (PID=374) to work on /opt/airflow/dags/football_dag.py
+[2026-07-23T14:06:35.426+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/football_dag.py for tasks to queue
+[2026-07-23T14:06:35.432+0000] {logging_mixin.py:190} INFO - [2026-07-23T14:06:35.432+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/football_dag.py
+[2026-07-23T14:06:36.858+0000] {processor.py:925} INFO - DAG(s) 'football_world_cup_pipeline' retrieved from /opt/airflow/dags/football_dag.py
+[2026-07-23T14:06:36.956+0000] {logging_mixin.py:190} INFO - [2026-07-23T14:06:36.955+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-23T14:06:37.012+0000] {logging_mixin.py:190} INFO - [2026-07-23T14:06:37.011+0000] {dag.py:4180} INFO - Setting next_dagrun for football_world_cup_pipeline to 2026-07-23 06:00:00+00:00, run_after=2026-07-23 12:00:00+00:00
+[2026-07-23T14:06:37.059+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/football_dag.py took 1.648 seconds
+[2026-07-23T14:06:40.885+0000] {processor.py:186} INFO - Started process (PID=376) to work on /opt/airflow/dags/football_dag.py
+[2026-07-23T14:06:40.891+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/football_dag.py for tasks to queue
+[2026-07-23T14:06:40.899+0000] {logging_mixin.py:190} INFO - [2026-07-23T14:06:40.898+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/football_dag.py
+[2026-07-23T14:06:42.219+0000] {processor.py:925} INFO - DAG(s) 'football_world_cup_pipeline' retrieved from /opt/airflow/dags/football_dag.py
+[2026-07-23T14:06:42.271+0000] {logging_mixin.py:190} INFO - [2026-07-23T14:06:42.270+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-23T14:06:42.313+0000] {logging_mixin.py:190} INFO - [2026-07-23T14:06:42.312+0000] {dag.py:4180} INFO - Setting next_dagrun for football_world_cup_pipeline to 2026-07-23 06:00:00+00:00, run_after=2026-07-23 12:00:00+00:00
+[2026-07-23T14:06:42.358+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/football_dag.py took 1.495 seconds
+[2026-07-23T14:07:12.711+0000] {processor.py:186} INFO - Started process (PID=384) to work on /opt/airflow/dags/football_dag.py
+[2026-07-23T14:07:12.714+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/football_dag.py for tasks to queue
+[2026-07-23T14:07:12.721+0000] {logging_mixin.py:190} INFO - [2026-07-23T14:07:12.721+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/football_dag.py
+[2026-07-23T14:07:13.877+0000] {processor.py:925} INFO - DAG(s) 'football_world_cup_pipeline' retrieved from /opt/airflow/dags/football_dag.py
+[2026-07-23T14:07:13.934+0000] {logging_mixin.py:190} INFO - [2026-07-23T14:07:13.933+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-23T14:07:13.976+0000] {logging_mixin.py:190} INFO - [2026-07-23T14:07:13.975+0000] {dag.py:4180} INFO - Setting next_dagrun for football_world_cup_pipeline to 2026-07-23 06:00:00+00:00, run_after=2026-07-23 12:00:00+00:00
+[2026-07-23T14:07:14.026+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/football_dag.py took 1.328 seconds
+[2026-07-23T14:07:44.370+0000] {processor.py:186} INFO - Started process (PID=392) to work on /opt/airflow/dags/football_dag.py
+[2026-07-23T14:07:44.375+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/football_dag.py for tasks to queue
+[2026-07-23T14:07:44.384+0000] {logging_mixin.py:190} INFO - [2026-07-23T14:07:44.382+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/football_dag.py
+[2026-07-23T14:07:45.913+0000] {processor.py:925} INFO - DAG(s) 'football_world_cup_pipeline' retrieved from /opt/airflow/dags/football_dag.py
+[2026-07-23T14:07:45.958+0000] {logging_mixin.py:190} INFO - [2026-07-23T14:07:45.958+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-23T14:07:46.006+0000] {logging_mixin.py:190} INFO - [2026-07-23T14:07:46.006+0000] {dag.py:4180} INFO - Setting next_dagrun for football_world_cup_pipeline to 2026-07-23 06:00:00+00:00, run_after=2026-07-23 12:00:00+00:00
+[2026-07-23T14:07:46.056+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/football_dag.py took 1.705 seconds
+[2026-07-23T14:08:16.659+0000] {processor.py:186} INFO - Started process (PID=400) to work on /opt/airflow/dags/football_dag.py
+[2026-07-23T14:08:16.663+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/football_dag.py for tasks to queue
+[2026-07-23T14:08:16.671+0000] {logging_mixin.py:190} INFO - [2026-07-23T14:08:16.670+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/football_dag.py
+[2026-07-23T14:08:17.741+0000] {processor.py:925} INFO - DAG(s) 'football_world_cup_pipeline' retrieved from /opt/airflow/dags/football_dag.py
+[2026-07-23T14:08:17.791+0000] {logging_mixin.py:190} INFO - [2026-07-23T14:08:17.790+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-23T14:08:17.837+0000] {logging_mixin.py:190} INFO - [2026-07-23T14:08:17.836+0000] {dag.py:4180} INFO - Setting next_dagrun for football_world_cup_pipeline to 2026-07-23 06:00:00+00:00, run_after=2026-07-23 12:00:00+00:00
+[2026-07-23T14:08:17.891+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/football_dag.py took 1.249 seconds
+[2026-07-23T14:08:48.110+0000] {processor.py:186} INFO - Started process (PID=408) to work on /opt/airflow/dags/football_dag.py
+[2026-07-23T14:08:48.113+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/football_dag.py for tasks to queue
+[2026-07-23T14:08:48.120+0000] {logging_mixin.py:190} INFO - [2026-07-23T14:08:48.119+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/football_dag.py
+[2026-07-23T14:08:49.132+0000] {processor.py:925} INFO - DAG(s) 'football_world_cup_pipeline' retrieved from /opt/airflow/dags/football_dag.py
+[2026-07-23T14:08:49.179+0000] {logging_mixin.py:190} INFO - [2026-07-23T14:08:49.178+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-23T14:08:49.221+0000] {logging_mixin.py:190} INFO - [2026-07-23T14:08:49.220+0000] {dag.py:4180} INFO - Setting next_dagrun for football_world_cup_pipeline to 2026-07-23 06:00:00+00:00, run_after=2026-07-23 12:00:00+00:00
+[2026-07-23T14:08:49.266+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/football_dag.py took 1.168 seconds
+[2026-07-23T14:09:19.623+0000] {processor.py:186} INFO - Started process (PID=416) to work on /opt/airflow/dags/football_dag.py
+[2026-07-23T14:09:19.627+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/football_dag.py for tasks to queue
+[2026-07-23T14:09:19.633+0000] {logging_mixin.py:190} INFO - [2026-07-23T14:09:19.633+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/football_dag.py
+[2026-07-23T14:09:20.787+0000] {processor.py:925} INFO - DAG(s) 'football_world_cup_pipeline' retrieved from /opt/airflow/dags/football_dag.py
+[2026-07-23T14:09:20.834+0000] {logging_mixin.py:190} INFO - [2026-07-23T14:09:20.833+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-23T14:09:20.865+0000] {logging_mixin.py:190} INFO - [2026-07-23T14:09:20.865+0000] {dag.py:4180} INFO - Setting next_dagrun for football_world_cup_pipeline to 2026-07-23 06:00:00+00:00, run_after=2026-07-23 12:00:00+00:00
+[2026-07-23T14:09:20.904+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/football_dag.py took 1.295 seconds
+[2026-07-23T14:09:51.281+0000] {processor.py:186} INFO - Started process (PID=424) to work on /opt/airflow/dags/football_dag.py
+[2026-07-23T14:09:51.283+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/football_dag.py for tasks to queue
+[2026-07-23T14:09:51.289+0000] {logging_mixin.py:190} INFO - [2026-07-23T14:09:51.289+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/football_dag.py
+[2026-07-23T14:09:52.280+0000] {processor.py:925} INFO - DAG(s) 'football_world_cup_pipeline' retrieved from /opt/airflow/dags/football_dag.py
+[2026-07-23T14:09:52.341+0000] {logging_mixin.py:190} INFO - [2026-07-23T14:09:52.339+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-23T14:09:52.386+0000] {logging_mixin.py:190} INFO - [2026-07-23T14:09:52.386+0000] {dag.py:4180} INFO - Setting next_dagrun for football_world_cup_pipeline to 2026-07-23 06:00:00+00:00, run_after=2026-07-23 12:00:00+00:00
+[2026-07-23T14:09:52.427+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/football_dag.py took 1.159 seconds
+[2026-07-23T14:10:23.077+0000] {processor.py:186} INFO - Started process (PID=432) to work on /opt/airflow/dags/football_dag.py
+[2026-07-23T14:10:23.080+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/football_dag.py for tasks to queue
+[2026-07-23T14:10:23.087+0000] {logging_mixin.py:190} INFO - [2026-07-23T14:10:23.087+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/football_dag.py
+[2026-07-23T14:10:24.569+0000] {processor.py:925} INFO - DAG(s) 'football_world_cup_pipeline' retrieved from /opt/airflow/dags/football_dag.py
+[2026-07-23T14:10:24.639+0000] {logging_mixin.py:190} INFO - [2026-07-23T14:10:24.639+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-23T14:10:24.701+0000] {logging_mixin.py:190} INFO - [2026-07-23T14:10:24.700+0000] {dag.py:4180} INFO - Setting next_dagrun for football_world_cup_pipeline to 2026-07-23 06:00:00+00:00, run_after=2026-07-23 12:00:00+00:00
+[2026-07-23T14:10:24.757+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/football_dag.py took 1.695 seconds
+[2026-07-23T14:10:55.411+0000] {processor.py:186} INFO - Started process (PID=446) to work on /opt/airflow/dags/football_dag.py
+[2026-07-23T14:10:55.415+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/football_dag.py for tasks to queue
+[2026-07-23T14:10:55.426+0000] {logging_mixin.py:190} INFO - [2026-07-23T14:10:55.425+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/football_dag.py
+[2026-07-23T14:10:56.506+0000] {processor.py:925} INFO - DAG(s) 'football_world_cup_pipeline' retrieved from /opt/airflow/dags/football_dag.py
+[2026-07-23T14:10:56.644+0000] {logging_mixin.py:190} INFO - [2026-07-23T14:10:56.642+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-23T14:10:56.833+0000] {logging_mixin.py:190} INFO - [2026-07-23T14:10:56.832+0000] {dag.py:4180} INFO - Setting next_dagrun for football_world_cup_pipeline to 2026-07-23 06:00:00+00:00, run_after=2026-07-23 12:00:00+00:00
+[2026-07-23T14:10:56.942+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/football_dag.py took 1.541 seconds
+[2026-07-23T14:11:27.547+0000] {processor.py:186} INFO - Started process (PID=454) to work on /opt/airflow/dags/football_dag.py
+[2026-07-23T14:11:27.553+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/football_dag.py for tasks to queue
+[2026-07-23T14:11:27.568+0000] {logging_mixin.py:190} INFO - [2026-07-23T14:11:27.568+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/football_dag.py
+[2026-07-23T14:11:29.161+0000] {processor.py:925} INFO - DAG(s) 'football_world_cup_pipeline' retrieved from /opt/airflow/dags/football_dag.py
+[2026-07-23T14:11:29.202+0000] {logging_mixin.py:190} INFO - [2026-07-23T14:11:29.201+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-23T14:11:29.238+0000] {logging_mixin.py:190} INFO - [2026-07-23T14:11:29.237+0000] {dag.py:4180} INFO - Setting next_dagrun for football_world_cup_pipeline to 2026-07-23 06:00:00+00:00, run_after=2026-07-23 12:00:00+00:00
+[2026-07-23T14:11:29.282+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/football_dag.py took 1.755 seconds
+[2026-07-23T14:11:59.514+0000] {processor.py:186} INFO - Started process (PID=462) to work on /opt/airflow/dags/football_dag.py
+[2026-07-23T14:11:59.521+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/football_dag.py for tasks to queue
+[2026-07-23T14:11:59.531+0000] {logging_mixin.py:190} INFO - [2026-07-23T14:11:59.530+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/football_dag.py
+[2026-07-23T14:12:00.685+0000] {processor.py:925} INFO - DAG(s) 'football_world_cup_pipeline' retrieved from /opt/airflow/dags/football_dag.py
+[2026-07-23T14:12:00.721+0000] {logging_mixin.py:190} INFO - [2026-07-23T14:12:00.721+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-23T14:12:00.760+0000] {logging_mixin.py:190} INFO - [2026-07-23T14:12:00.760+0000] {dag.py:4180} INFO - Setting next_dagrun for football_world_cup_pipeline to 2026-07-23 06:00:00+00:00, run_after=2026-07-23 12:00:00+00:00
+[2026-07-23T14:12:00.832+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/football_dag.py took 1.346 seconds
+[2026-07-23T14:12:31.206+0000] {processor.py:186} INFO - Started process (PID=470) to work on /opt/airflow/dags/football_dag.py
+[2026-07-23T14:12:31.209+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/football_dag.py for tasks to queue
+[2026-07-23T14:12:31.213+0000] {logging_mixin.py:190} INFO - [2026-07-23T14:12:31.213+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/football_dag.py
+[2026-07-23T14:12:32.114+0000] {processor.py:925} INFO - DAG(s) 'football_world_cup_pipeline' retrieved from /opt/airflow/dags/football_dag.py
+[2026-07-23T14:12:32.151+0000] {logging_mixin.py:190} INFO - [2026-07-23T14:12:32.150+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-23T14:12:32.186+0000] {logging_mixin.py:190} INFO - [2026-07-23T14:12:32.186+0000] {dag.py:4180} INFO - Setting next_dagrun for football_world_cup_pipeline to 2026-07-23 06:00:00+00:00, run_after=2026-07-23 12:00:00+00:00
+[2026-07-23T14:12:32.221+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/football_dag.py took 1.026 seconds
+[2026-07-23T14:13:02.689+0000] {processor.py:186} INFO - Started process (PID=479) to work on /opt/airflow/dags/football_dag.py
+[2026-07-23T14:13:02.692+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/football_dag.py for tasks to queue
+[2026-07-23T14:13:02.697+0000] {logging_mixin.py:190} INFO - [2026-07-23T14:13:02.696+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/football_dag.py
+[2026-07-23T14:13:03.513+0000] {processor.py:925} INFO - DAG(s) 'football_world_cup_pipeline' retrieved from /opt/airflow/dags/football_dag.py
+[2026-07-23T14:13:03.576+0000] {logging_mixin.py:190} INFO - [2026-07-23T14:13:03.575+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-23T14:13:03.657+0000] {logging_mixin.py:190} INFO - [2026-07-23T14:13:03.656+0000] {dag.py:4180} INFO - Setting next_dagrun for football_world_cup_pipeline to 2026-07-23 06:00:00+00:00, run_after=2026-07-23 12:00:00+00:00
+[2026-07-23T14:13:03.715+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/football_dag.py took 1.036 seconds
+[2026-07-23T14:13:34.196+0000] {processor.py:186} INFO - Started process (PID=488) to work on /opt/airflow/dags/football_dag.py
+[2026-07-23T14:13:34.199+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/football_dag.py for tasks to queue
+[2026-07-23T14:13:34.206+0000] {logging_mixin.py:190} INFO - [2026-07-23T14:13:34.204+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/football_dag.py
+[2026-07-23T14:13:35.110+0000] {processor.py:925} INFO - DAG(s) 'football_world_cup_pipeline' retrieved from /opt/airflow/dags/football_dag.py
+[2026-07-23T14:13:35.152+0000] {logging_mixin.py:190} INFO - [2026-07-23T14:13:35.151+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-23T14:13:35.199+0000] {logging_mixin.py:190} INFO - [2026-07-23T14:13:35.198+0000] {dag.py:4180} INFO - Setting next_dagrun for football_world_cup_pipeline to 2026-07-23 06:00:00+00:00, run_after=2026-07-23 12:00:00+00:00
+[2026-07-23T14:13:35.232+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/football_dag.py took 1.046 seconds
+[2026-07-23T14:14:05.730+0000] {processor.py:186} INFO - Started process (PID=497) to work on /opt/airflow/dags/football_dag.py
+[2026-07-23T14:14:05.733+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/football_dag.py for tasks to queue
+[2026-07-23T14:14:05.743+0000] {logging_mixin.py:190} INFO - [2026-07-23T14:14:05.742+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/football_dag.py
+[2026-07-23T14:14:06.925+0000] {processor.py:925} INFO - DAG(s) 'football_world_cup_pipeline' retrieved from /opt/airflow/dags/football_dag.py
+[2026-07-23T14:14:06.983+0000] {logging_mixin.py:190} INFO - [2026-07-23T14:14:06.982+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-23T14:14:07.018+0000] {logging_mixin.py:190} INFO - [2026-07-23T14:14:07.017+0000] {dag.py:4180} INFO - Setting next_dagrun for football_world_cup_pipeline to 2026-07-23 06:00:00+00:00, run_after=2026-07-23 12:00:00+00:00
+[2026-07-23T14:14:07.062+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/football_dag.py took 1.348 seconds
+[2026-07-23T14:14:37.244+0000] {processor.py:186} INFO - Started process (PID=505) to work on /opt/airflow/dags/football_dag.py
+[2026-07-23T14:14:37.248+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/football_dag.py for tasks to queue
+[2026-07-23T14:14:37.255+0000] {logging_mixin.py:190} INFO - [2026-07-23T14:14:37.254+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/football_dag.py
+[2026-07-23T14:14:38.292+0000] {processor.py:925} INFO - DAG(s) 'football_world_cup_pipeline' retrieved from /opt/airflow/dags/football_dag.py
+[2026-07-23T14:14:38.347+0000] {logging_mixin.py:190} INFO - [2026-07-23T14:14:38.346+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-23T14:14:38.392+0000] {logging_mixin.py:190} INFO - [2026-07-23T14:14:38.392+0000] {dag.py:4180} INFO - Setting next_dagrun for football_world_cup_pipeline to 2026-07-23 06:00:00+00:00, run_after=2026-07-23 12:00:00+00:00
+[2026-07-23T14:14:38.443+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/football_dag.py took 1.218 seconds
+[2026-07-23T14:15:08.769+0000] {processor.py:186} INFO - Started process (PID=513) to work on /opt/airflow/dags/football_dag.py
+[2026-07-23T14:15:08.786+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/football_dag.py for tasks to queue
+[2026-07-23T14:15:08.795+0000] {logging_mixin.py:190} INFO - [2026-07-23T14:15:08.794+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/football_dag.py
+[2026-07-23T14:15:10.131+0000] {processor.py:925} INFO - DAG(s) 'football_world_cup_pipeline' retrieved from /opt/airflow/dags/football_dag.py
+[2026-07-23T14:15:10.176+0000] {logging_mixin.py:190} INFO - [2026-07-23T14:15:10.175+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-23T14:15:10.213+0000] {logging_mixin.py:190} INFO - [2026-07-23T14:15:10.213+0000] {dag.py:4180} INFO - Setting next_dagrun for football_world_cup_pipeline to 2026-07-23 06:00:00+00:00, run_after=2026-07-23 12:00:00+00:00
+[2026-07-23T14:15:10.249+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/football_dag.py took 1.501 seconds
+[2026-07-23T14:15:40.676+0000] {processor.py:186} INFO - Started process (PID=521) to work on /opt/airflow/dags/football_dag.py
+[2026-07-23T14:15:40.679+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/football_dag.py for tasks to queue
+[2026-07-23T14:15:40.686+0000] {logging_mixin.py:190} INFO - [2026-07-23T14:15:40.685+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/football_dag.py
+[2026-07-23T14:15:41.616+0000] {processor.py:925} INFO - DAG(s) 'football_world_cup_pipeline' retrieved from /opt/airflow/dags/football_dag.py
+[2026-07-23T14:15:41.665+0000] {logging_mixin.py:190} INFO - [2026-07-23T14:15:41.664+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-23T14:15:41.704+0000] {logging_mixin.py:190} INFO - [2026-07-23T14:15:41.703+0000] {dag.py:4180} INFO - Setting next_dagrun for football_world_cup_pipeline to 2026-07-23 06:00:00+00:00, run_after=2026-07-23 12:00:00+00:00
+[2026-07-23T14:15:41.734+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/football_dag.py took 1.066 seconds
+[2026-07-23T14:59:15.448+0000] {processor.py:186} INFO - Started process (PID=102) to work on /opt/airflow/dags/football_dag.py
+[2026-07-23T14:59:15.456+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/football_dag.py for tasks to queue
+[2026-07-23T14:59:15.468+0000] {logging_mixin.py:190} INFO - [2026-07-23T14:59:15.467+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/football_dag.py
+[2026-07-23T14:59:21.675+0000] {processor.py:925} INFO - DAG(s) 'football_world_cup_pipeline' retrieved from /opt/airflow/dags/football_dag.py
+[2026-07-23T14:59:21.825+0000] {logging_mixin.py:190} INFO - [2026-07-23T14:59:21.824+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-23T14:59:21.949+0000] {logging_mixin.py:190} INFO - [2026-07-23T14:59:21.948+0000] {dag.py:4180} INFO - Setting next_dagrun for football_world_cup_pipeline to 2026-07-23 06:00:00+00:00, run_after=2026-07-23 12:00:00+00:00
+[2026-07-23T14:59:22.024+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/football_dag.py took 6.605 seconds
+[2026-07-23T14:59:52.824+0000] {processor.py:186} INFO - Started process (PID=117) to work on /opt/airflow/dags/football_dag.py
+[2026-07-23T14:59:52.836+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/football_dag.py for tasks to queue
+[2026-07-23T14:59:52.850+0000] {logging_mixin.py:190} INFO - [2026-07-23T14:59:52.844+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/football_dag.py
+[2026-07-23T14:59:55.953+0000] {processor.py:925} INFO - DAG(s) 'football_world_cup_pipeline' retrieved from /opt/airflow/dags/football_dag.py
+[2026-07-23T14:59:56.026+0000] {logging_mixin.py:190} INFO - [2026-07-23T14:59:56.025+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-23T14:59:56.093+0000] {logging_mixin.py:190} INFO - [2026-07-23T14:59:56.091+0000] {dag.py:4180} INFO - Setting next_dagrun for football_world_cup_pipeline to 2026-07-23 06:00:00+00:00, run_after=2026-07-23 12:00:00+00:00
+[2026-07-23T14:59:56.162+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/football_dag.py took 3.406 seconds
+[2026-07-23T15:00:26.724+0000] {processor.py:186} INFO - Started process (PID=125) to work on /opt/airflow/dags/football_dag.py
+[2026-07-23T15:00:26.744+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/football_dag.py for tasks to queue
+[2026-07-23T15:00:26.780+0000] {logging_mixin.py:190} INFO - [2026-07-23T15:00:26.779+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/football_dag.py
+[2026-07-23T15:00:28.713+0000] {processor.py:925} INFO - DAG(s) 'football_world_cup_pipeline' retrieved from /opt/airflow/dags/football_dag.py
+[2026-07-23T15:00:28.783+0000] {logging_mixin.py:190} INFO - [2026-07-23T15:00:28.782+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-23T15:00:28.854+0000] {logging_mixin.py:190} INFO - [2026-07-23T15:00:28.854+0000] {dag.py:4180} INFO - Setting next_dagrun for football_world_cup_pipeline to 2026-07-23 06:00:00+00:00, run_after=2026-07-23 12:00:00+00:00
+[2026-07-23T15:00:28.924+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/football_dag.py took 2.256 seconds
+[2026-07-23T15:04:18.408+0000] {processor.py:186} INFO - Started process (PID=94) to work on /opt/airflow/dags/football_dag.py
+[2026-07-23T15:04:18.417+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/football_dag.py for tasks to queue
+[2026-07-23T15:04:18.426+0000] {logging_mixin.py:190} INFO - [2026-07-23T15:04:18.425+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/football_dag.py
+[2026-07-23T15:05:10.704+0000] {processor.py:186} INFO - Started process (PID=88) to work on /opt/airflow/dags/football_dag.py
+[2026-07-23T15:05:10.720+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/football_dag.py for tasks to queue
+[2026-07-23T15:05:10.736+0000] {logging_mixin.py:190} INFO - [2026-07-23T15:05:10.735+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/football_dag.py
+[2026-07-23T15:05:14.506+0000] {processor.py:925} INFO - DAG(s) 'football_world_cup_pipeline' retrieved from /opt/airflow/dags/football_dag.py
+[2026-07-23T15:05:14.774+0000] {logging_mixin.py:190} INFO - [2026-07-23T15:05:14.772+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-23T15:05:14.919+0000] {logging_mixin.py:190} INFO - [2026-07-23T15:05:14.918+0000] {dag.py:4180} INFO - Setting next_dagrun for football_world_cup_pipeline to 2026-07-23 06:00:00+00:00, run_after=2026-07-23 12:00:00+00:00
+[2026-07-23T15:05:15.011+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/football_dag.py took 4.334 seconds
+[2026-07-23T15:05:45.496+0000] {processor.py:186} INFO - Started process (PID=96) to work on /opt/airflow/dags/football_dag.py
+[2026-07-23T15:05:45.499+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/football_dag.py for tasks to queue
+[2026-07-23T15:05:45.512+0000] {logging_mixin.py:190} INFO - [2026-07-23T15:05:45.510+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/football_dag.py
+[2026-07-23T15:05:47.332+0000] {processor.py:925} INFO - DAG(s) 'football_world_cup_pipeline' retrieved from /opt/airflow/dags/football_dag.py
+[2026-07-23T15:05:47.406+0000] {logging_mixin.py:190} INFO - [2026-07-23T15:05:47.405+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-23T15:05:47.486+0000] {logging_mixin.py:190} INFO - [2026-07-23T15:05:47.485+0000] {dag.py:4180} INFO - Setting next_dagrun for football_world_cup_pipeline to 2026-07-23 06:00:00+00:00, run_after=2026-07-23 12:00:00+00:00
+[2026-07-23T15:05:47.544+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/football_dag.py took 2.063 seconds
+[2026-07-23T15:06:18.382+0000] {processor.py:186} INFO - Started process (PID=104) to work on /opt/airflow/dags/football_dag.py
+[2026-07-23T15:06:18.417+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/football_dag.py for tasks to queue
+[2026-07-23T15:06:18.468+0000] {logging_mixin.py:190} INFO - [2026-07-23T15:06:18.467+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/football_dag.py
+[2026-07-23T15:06:20.210+0000] {processor.py:925} INFO - DAG(s) 'football_world_cup_pipeline' retrieved from /opt/airflow/dags/football_dag.py
+[2026-07-23T15:06:20.296+0000] {logging_mixin.py:190} INFO - [2026-07-23T15:06:20.295+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-23T15:06:20.359+0000] {logging_mixin.py:190} INFO - [2026-07-23T15:06:20.358+0000] {dag.py:4180} INFO - Setting next_dagrun for football_world_cup_pipeline to 2026-07-23 06:00:00+00:00, run_after=2026-07-23 12:00:00+00:00
+[2026-07-23T15:06:20.417+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/football_dag.py took 2.102 seconds
+[2026-07-23T15:06:50.861+0000] {processor.py:186} INFO - Started process (PID=112) to work on /opt/airflow/dags/football_dag.py
+[2026-07-23T15:06:50.864+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/football_dag.py for tasks to queue
+[2026-07-23T15:06:50.873+0000] {logging_mixin.py:190} INFO - [2026-07-23T15:06:50.872+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/football_dag.py
+[2026-07-23T15:06:51.871+0000] {processor.py:925} INFO - DAG(s) 'football_world_cup_pipeline' retrieved from /opt/airflow/dags/football_dag.py
+[2026-07-23T15:06:51.916+0000] {logging_mixin.py:190} INFO - [2026-07-23T15:06:51.916+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-23T15:06:51.956+0000] {logging_mixin.py:190} INFO - [2026-07-23T15:06:51.956+0000] {dag.py:4180} INFO - Setting next_dagrun for football_world_cup_pipeline to 2026-07-23 06:00:00+00:00, run_after=2026-07-23 12:00:00+00:00
+[2026-07-23T15:06:51.998+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/football_dag.py took 1.152 seconds
+[2026-07-23T15:07:22.571+0000] {processor.py:186} INFO - Started process (PID=121) to work on /opt/airflow/dags/football_dag.py
+[2026-07-23T15:07:22.576+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/football_dag.py for tasks to queue
+[2026-07-23T15:07:22.594+0000] {logging_mixin.py:190} INFO - [2026-07-23T15:07:22.592+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/football_dag.py
+[2026-07-23T15:07:24.128+0000] {processor.py:925} INFO - DAG(s) 'football_world_cup_pipeline' retrieved from /opt/airflow/dags/football_dag.py
+[2026-07-23T15:07:24.173+0000] {logging_mixin.py:190} INFO - [2026-07-23T15:07:24.173+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-23T15:07:24.238+0000] {logging_mixin.py:190} INFO - [2026-07-23T15:07:24.238+0000] {dag.py:4180} INFO - Setting next_dagrun for football_world_cup_pipeline to 2026-07-23 06:00:00+00:00, run_after=2026-07-23 12:00:00+00:00
+[2026-07-23T15:07:24.302+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/football_dag.py took 1.761 seconds
+[2026-07-23T15:07:54.925+0000] {processor.py:186} INFO - Started process (PID=129) to work on /opt/airflow/dags/football_dag.py
+[2026-07-23T15:07:54.933+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/football_dag.py for tasks to queue
+[2026-07-23T15:07:54.947+0000] {logging_mixin.py:190} INFO - [2026-07-23T15:07:54.945+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/football_dag.py
+[2026-07-23T15:07:56.486+0000] {processor.py:925} INFO - DAG(s) 'football_world_cup_pipeline' retrieved from /opt/airflow/dags/football_dag.py
+[2026-07-23T15:07:56.532+0000] {logging_mixin.py:190} INFO - [2026-07-23T15:07:56.531+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-23T15:07:56.594+0000] {logging_mixin.py:190} INFO - [2026-07-23T15:07:56.593+0000] {dag.py:4180} INFO - Setting next_dagrun for football_world_cup_pipeline to 2026-07-23 06:00:00+00:00, run_after=2026-07-23 12:00:00+00:00
+[2026-07-23T15:07:56.638+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/football_dag.py took 1.752 seconds
+[2026-07-23T15:08:27.277+0000] {processor.py:186} INFO - Started process (PID=137) to work on /opt/airflow/dags/football_dag.py
+[2026-07-23T15:08:27.281+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/football_dag.py for tasks to queue
+[2026-07-23T15:08:27.293+0000] {logging_mixin.py:190} INFO - [2026-07-23T15:08:27.288+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/football_dag.py
+[2026-07-23T15:08:29.567+0000] {processor.py:925} INFO - DAG(s) 'football_world_cup_pipeline' retrieved from /opt/airflow/dags/football_dag.py
+[2026-07-23T15:08:29.660+0000] {logging_mixin.py:190} INFO - [2026-07-23T15:08:29.659+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-23T15:08:29.857+0000] {logging_mixin.py:190} INFO - [2026-07-23T15:08:29.856+0000] {dag.py:4180} INFO - Setting next_dagrun for football_world_cup_pipeline to 2026-07-23 12:00:00+00:00, run_after=2026-07-23 18:00:00+00:00
+[2026-07-23T15:08:30.008+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/football_dag.py took 2.743 seconds
+[2026-07-23T15:09:00.687+0000] {processor.py:186} INFO - Started process (PID=145) to work on /opt/airflow/dags/football_dag.py
+[2026-07-23T15:09:00.690+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/football_dag.py for tasks to queue
+[2026-07-23T15:09:00.698+0000] {logging_mixin.py:190} INFO - [2026-07-23T15:09:00.698+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/football_dag.py
+[2026-07-23T15:09:02.113+0000] {processor.py:925} INFO - DAG(s) 'football_world_cup_pipeline' retrieved from /opt/airflow/dags/football_dag.py
+[2026-07-23T15:09:02.177+0000] {logging_mixin.py:190} INFO - [2026-07-23T15:09:02.177+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-23T15:09:02.265+0000] {logging_mixin.py:190} INFO - [2026-07-23T15:09:02.264+0000] {dag.py:4180} INFO - Setting next_dagrun for football_world_cup_pipeline to 2026-07-23 12:00:00+00:00, run_after=2026-07-23 18:00:00+00:00
+[2026-07-23T15:09:02.386+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/football_dag.py took 1.711 seconds
+[2026-07-23T15:09:32.991+0000] {processor.py:186} INFO - Started process (PID=153) to work on /opt/airflow/dags/football_dag.py
+[2026-07-23T15:09:32.995+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/football_dag.py for tasks to queue
+[2026-07-23T15:09:33.002+0000] {logging_mixin.py:190} INFO - [2026-07-23T15:09:33.001+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/football_dag.py
+[2026-07-23T15:09:34.306+0000] {processor.py:925} INFO - DAG(s) 'football_world_cup_pipeline' retrieved from /opt/airflow/dags/football_dag.py
+[2026-07-23T15:09:34.391+0000] {logging_mixin.py:190} INFO - [2026-07-23T15:09:34.390+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-23T15:09:34.481+0000] {logging_mixin.py:190} INFO - [2026-07-23T15:09:34.480+0000] {dag.py:4180} INFO - Setting next_dagrun for football_world_cup_pipeline to 2026-07-23 12:00:00+00:00, run_after=2026-07-23 18:00:00+00:00
+[2026-07-23T15:09:34.558+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/football_dag.py took 1.580 seconds
+[2026-07-23T15:10:05.007+0000] {processor.py:186} INFO - Started process (PID=161) to work on /opt/airflow/dags/football_dag.py
+[2026-07-23T15:10:05.011+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/football_dag.py for tasks to queue
+[2026-07-23T15:10:05.017+0000] {logging_mixin.py:190} INFO - [2026-07-23T15:10:05.016+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/football_dag.py
+[2026-07-23T15:10:06.338+0000] {processor.py:925} INFO - DAG(s) 'football_world_cup_pipeline' retrieved from /opt/airflow/dags/football_dag.py
+[2026-07-23T15:10:06.375+0000] {logging_mixin.py:190} INFO - [2026-07-23T15:10:06.375+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-23T15:10:06.420+0000] {logging_mixin.py:190} INFO - [2026-07-23T15:10:06.419+0000] {dag.py:4180} INFO - Setting next_dagrun for football_world_cup_pipeline to 2026-07-23 12:00:00+00:00, run_after=2026-07-23 18:00:00+00:00
+[2026-07-23T15:10:06.463+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/football_dag.py took 1.474 seconds
+[2026-07-23T15:10:36.665+0000] {processor.py:186} INFO - Started process (PID=175) to work on /opt/airflow/dags/football_dag.py
+[2026-07-23T15:10:36.670+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/football_dag.py for tasks to queue
+[2026-07-23T15:10:36.678+0000] {logging_mixin.py:190} INFO - [2026-07-23T15:10:36.677+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/football_dag.py
+[2026-07-23T15:10:37.993+0000] {processor.py:925} INFO - DAG(s) 'football_world_cup_pipeline' retrieved from /opt/airflow/dags/football_dag.py
+[2026-07-23T15:10:38.057+0000] {logging_mixin.py:190} INFO - [2026-07-23T15:10:38.057+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-23T15:10:38.100+0000] {logging_mixin.py:190} INFO - [2026-07-23T15:10:38.100+0000] {dag.py:4180} INFO - Setting next_dagrun for football_world_cup_pipeline to 2026-07-23 12:00:00+00:00, run_after=2026-07-23 18:00:00+00:00
+[2026-07-23T15:10:38.155+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/football_dag.py took 1.499 seconds
+[2026-07-23T15:11:08.776+0000] {processor.py:186} INFO - Started process (PID=183) to work on /opt/airflow/dags/football_dag.py
+[2026-07-23T15:11:08.780+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/football_dag.py for tasks to queue
+[2026-07-23T15:11:08.793+0000] {logging_mixin.py:190} INFO - [2026-07-23T15:11:08.793+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/football_dag.py
+[2026-07-23T15:11:09.872+0000] {processor.py:925} INFO - DAG(s) 'football_world_cup_pipeline' retrieved from /opt/airflow/dags/football_dag.py
+[2026-07-23T15:11:09.925+0000] {logging_mixin.py:190} INFO - [2026-07-23T15:11:09.925+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-23T15:11:09.967+0000] {logging_mixin.py:190} INFO - [2026-07-23T15:11:09.967+0000] {dag.py:4180} INFO - Setting next_dagrun for football_world_cup_pipeline to 2026-07-23 12:00:00+00:00, run_after=2026-07-23 18:00:00+00:00
+[2026-07-23T15:11:10.013+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/football_dag.py took 1.262 seconds
+[2026-07-23T15:11:40.209+0000] {processor.py:186} INFO - Started process (PID=192) to work on /opt/airflow/dags/football_dag.py
+[2026-07-23T15:11:40.212+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/football_dag.py for tasks to queue
+[2026-07-23T15:11:40.220+0000] {logging_mixin.py:190} INFO - [2026-07-23T15:11:40.218+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/football_dag.py
+[2026-07-23T15:11:41.525+0000] {processor.py:925} INFO - DAG(s) 'football_world_cup_pipeline' retrieved from /opt/airflow/dags/football_dag.py
+[2026-07-23T15:11:41.576+0000] {logging_mixin.py:190} INFO - [2026-07-23T15:11:41.575+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-23T15:11:41.618+0000] {logging_mixin.py:190} INFO - [2026-07-23T15:11:41.618+0000] {dag.py:4180} INFO - Setting next_dagrun for football_world_cup_pipeline to 2026-07-23 12:00:00+00:00, run_after=2026-07-23 18:00:00+00:00
+[2026-07-23T15:11:41.656+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/football_dag.py took 1.457 seconds
+[2026-07-23T15:12:11.993+0000] {processor.py:186} INFO - Started process (PID=200) to work on /opt/airflow/dags/football_dag.py
+[2026-07-23T15:12:11.998+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/football_dag.py for tasks to queue
+[2026-07-23T15:12:12.013+0000] {logging_mixin.py:190} INFO - [2026-07-23T15:12:12.012+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/football_dag.py
+[2026-07-23T15:12:13.534+0000] {processor.py:925} INFO - DAG(s) 'football_world_cup_pipeline' retrieved from /opt/airflow/dags/football_dag.py
+[2026-07-23T15:12:13.581+0000] {logging_mixin.py:190} INFO - [2026-07-23T15:12:13.580+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-23T15:12:13.627+0000] {logging_mixin.py:190} INFO - [2026-07-23T15:12:13.626+0000] {dag.py:4180} INFO - Setting next_dagrun for football_world_cup_pipeline to 2026-07-23 12:00:00+00:00, run_after=2026-07-23 18:00:00+00:00
+[2026-07-23T15:12:13.669+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/football_dag.py took 1.701 seconds
+[2026-07-23T15:12:44.157+0000] {processor.py:186} INFO - Started process (PID=208) to work on /opt/airflow/dags/football_dag.py
+[2026-07-23T15:12:44.160+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/football_dag.py for tasks to queue
+[2026-07-23T15:12:44.167+0000] {logging_mixin.py:190} INFO - [2026-07-23T15:12:44.166+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/football_dag.py
+[2026-07-23T15:12:45.356+0000] {processor.py:925} INFO - DAG(s) 'football_world_cup_pipeline' retrieved from /opt/airflow/dags/football_dag.py
+[2026-07-23T15:12:45.404+0000] {logging_mixin.py:190} INFO - [2026-07-23T15:12:45.403+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-23T15:12:45.438+0000] {logging_mixin.py:190} INFO - [2026-07-23T15:12:45.437+0000] {dag.py:4180} INFO - Setting next_dagrun for football_world_cup_pipeline to 2026-07-23 12:00:00+00:00, run_after=2026-07-23 18:00:00+00:00
+[2026-07-23T15:12:45.475+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/football_dag.py took 1.329 seconds
+[2026-07-23T15:13:15.621+0000] {processor.py:186} INFO - Started process (PID=216) to work on /opt/airflow/dags/football_dag.py
+[2026-07-23T15:13:15.624+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/football_dag.py for tasks to queue
+[2026-07-23T15:13:15.631+0000] {logging_mixin.py:190} INFO - [2026-07-23T15:13:15.630+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/football_dag.py
+[2026-07-23T15:13:16.716+0000] {processor.py:925} INFO - DAG(s) 'football_world_cup_pipeline' retrieved from /opt/airflow/dags/football_dag.py
+[2026-07-23T15:13:16.758+0000] {logging_mixin.py:190} INFO - [2026-07-23T15:13:16.757+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-23T15:13:16.805+0000] {logging_mixin.py:190} INFO - [2026-07-23T15:13:16.805+0000] {dag.py:4180} INFO - Setting next_dagrun for football_world_cup_pipeline to 2026-07-23 12:00:00+00:00, run_after=2026-07-23 18:00:00+00:00
+[2026-07-23T15:13:16.851+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/football_dag.py took 1.240 seconds
+[2026-07-23T15:13:47.085+0000] {processor.py:186} INFO - Started process (PID=224) to work on /opt/airflow/dags/football_dag.py
+[2026-07-23T15:13:47.088+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/football_dag.py for tasks to queue
+[2026-07-23T15:13:47.094+0000] {logging_mixin.py:190} INFO - [2026-07-23T15:13:47.093+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/football_dag.py
+[2026-07-23T15:13:48.062+0000] {processor.py:925} INFO - DAG(s) 'football_world_cup_pipeline' retrieved from /opt/airflow/dags/football_dag.py
+[2026-07-23T15:13:48.129+0000] {logging_mixin.py:190} INFO - [2026-07-23T15:13:48.128+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-23T15:13:48.170+0000] {logging_mixin.py:190} INFO - [2026-07-23T15:13:48.169+0000] {dag.py:4180} INFO - Setting next_dagrun for football_world_cup_pipeline to 2026-07-23 12:00:00+00:00, run_after=2026-07-23 18:00:00+00:00
+[2026-07-23T15:13:48.212+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/football_dag.py took 1.136 seconds
+[2026-07-23T15:14:18.561+0000] {processor.py:186} INFO - Started process (PID=232) to work on /opt/airflow/dags/football_dag.py
+[2026-07-23T15:14:18.564+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/football_dag.py for tasks to queue
+[2026-07-23T15:14:18.575+0000] {logging_mixin.py:190} INFO - [2026-07-23T15:14:18.574+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/football_dag.py
+[2026-07-23T15:14:19.551+0000] {processor.py:925} INFO - DAG(s) 'football_world_cup_pipeline' retrieved from /opt/airflow/dags/football_dag.py
+[2026-07-23T15:14:19.612+0000] {logging_mixin.py:190} INFO - [2026-07-23T15:14:19.611+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-23T15:14:19.661+0000] {logging_mixin.py:190} INFO - [2026-07-23T15:14:19.661+0000] {dag.py:4180} INFO - Setting next_dagrun for football_world_cup_pipeline to 2026-07-23 12:00:00+00:00, run_after=2026-07-23 18:00:00+00:00
+[2026-07-23T15:14:19.707+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/football_dag.py took 1.162 seconds
+[2026-07-23T15:14:50.213+0000] {processor.py:186} INFO - Started process (PID=240) to work on /opt/airflow/dags/football_dag.py
+[2026-07-23T15:14:50.217+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/football_dag.py for tasks to queue
+[2026-07-23T15:14:50.227+0000] {logging_mixin.py:190} INFO - [2026-07-23T15:14:50.226+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/football_dag.py
+[2026-07-23T15:14:51.292+0000] {processor.py:925} INFO - DAG(s) 'football_world_cup_pipeline' retrieved from /opt/airflow/dags/football_dag.py
+[2026-07-23T15:14:51.347+0000] {logging_mixin.py:190} INFO - [2026-07-23T15:14:51.347+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-23T15:14:51.405+0000] {logging_mixin.py:190} INFO - [2026-07-23T15:14:51.405+0000] {dag.py:4180} INFO - Setting next_dagrun for football_world_cup_pipeline to 2026-07-23 12:00:00+00:00, run_after=2026-07-23 18:00:00+00:00
+[2026-07-23T15:14:51.454+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/football_dag.py took 1.260 seconds
+[2026-07-23T15:15:21.674+0000] {processor.py:186} INFO - Started process (PID=248) to work on /opt/airflow/dags/football_dag.py
+[2026-07-23T15:15:21.678+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/football_dag.py for tasks to queue
+[2026-07-23T15:15:21.686+0000] {logging_mixin.py:190} INFO - [2026-07-23T15:15:21.685+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/football_dag.py
+[2026-07-23T15:15:22.795+0000] {processor.py:925} INFO - DAG(s) 'football_world_cup_pipeline' retrieved from /opt/airflow/dags/football_dag.py
+[2026-07-23T15:15:22.893+0000] {logging_mixin.py:190} INFO - [2026-07-23T15:15:22.892+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-23T15:15:22.973+0000] {logging_mixin.py:190} INFO - [2026-07-23T15:15:22.972+0000] {dag.py:4180} INFO - Setting next_dagrun for football_world_cup_pipeline to 2026-07-23 12:00:00+00:00, run_after=2026-07-23 18:00:00+00:00
+[2026-07-23T15:15:23.044+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/football_dag.py took 1.392 seconds
+[2026-07-23T15:15:53.481+0000] {processor.py:186} INFO - Started process (PID=257) to work on /opt/airflow/dags/football_dag.py
+[2026-07-23T15:15:53.498+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/football_dag.py for tasks to queue
+[2026-07-23T15:15:53.519+0000] {logging_mixin.py:190} INFO - [2026-07-23T15:15:53.517+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/football_dag.py
+[2026-07-23T15:15:55.626+0000] {processor.py:925} INFO - DAG(s) 'football_world_cup_pipeline' retrieved from /opt/airflow/dags/football_dag.py
+[2026-07-23T15:15:55.732+0000] {logging_mixin.py:190} INFO - [2026-07-23T15:15:55.732+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-23T15:15:55.796+0000] {logging_mixin.py:190} INFO - [2026-07-23T15:15:55.795+0000] {dag.py:4180} INFO - Setting next_dagrun for football_world_cup_pipeline to 2026-07-23 12:00:00+00:00, run_after=2026-07-23 18:00:00+00:00
+[2026-07-23T15:15:55.879+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/football_dag.py took 2.449 seconds
+[2026-07-23T15:16:26.223+0000] {processor.py:186} INFO - Started process (PID=265) to work on /opt/airflow/dags/football_dag.py
+[2026-07-23T15:16:26.227+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/football_dag.py for tasks to queue
+[2026-07-23T15:16:26.241+0000] {logging_mixin.py:190} INFO - [2026-07-23T15:16:26.239+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/football_dag.py
+[2026-07-23T15:16:27.683+0000] {processor.py:925} INFO - DAG(s) 'football_world_cup_pipeline' retrieved from /opt/airflow/dags/football_dag.py
+[2026-07-23T15:16:27.747+0000] {logging_mixin.py:190} INFO - [2026-07-23T15:16:27.745+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-23T15:16:27.804+0000] {logging_mixin.py:190} INFO - [2026-07-23T15:16:27.803+0000] {dag.py:4180} INFO - Setting next_dagrun for football_world_cup_pipeline to 2026-07-23 12:00:00+00:00, run_after=2026-07-23 18:00:00+00:00
+[2026-07-23T15:16:27.863+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/football_dag.py took 1.653 seconds
+[2026-07-23T15:16:58.396+0000] {processor.py:186} INFO - Started process (PID=273) to work on /opt/airflow/dags/football_dag.py
+[2026-07-23T15:16:58.399+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/football_dag.py for tasks to queue
+[2026-07-23T15:16:58.406+0000] {logging_mixin.py:190} INFO - [2026-07-23T15:16:58.405+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/football_dag.py
+[2026-07-23T15:16:59.593+0000] {processor.py:925} INFO - DAG(s) 'football_world_cup_pipeline' retrieved from /opt/airflow/dags/football_dag.py
+[2026-07-23T15:16:59.630+0000] {logging_mixin.py:190} INFO - [2026-07-23T15:16:59.629+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-23T15:16:59.662+0000] {logging_mixin.py:190} INFO - [2026-07-23T15:16:59.662+0000] {dag.py:4180} INFO - Setting next_dagrun for football_world_cup_pipeline to 2026-07-23 12:00:00+00:00, run_after=2026-07-23 18:00:00+00:00
+[2026-07-23T15:16:59.703+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/football_dag.py took 1.319 seconds
+[2026-07-23T15:17:29.900+0000] {processor.py:186} INFO - Started process (PID=281) to work on /opt/airflow/dags/football_dag.py
+[2026-07-23T15:17:29.904+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/football_dag.py for tasks to queue
+[2026-07-23T15:17:29.913+0000] {logging_mixin.py:190} INFO - [2026-07-23T15:17:29.912+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/football_dag.py
+[2026-07-23T15:17:32.202+0000] {processor.py:925} INFO - DAG(s) 'football_world_cup_pipeline' retrieved from /opt/airflow/dags/football_dag.py
+[2026-07-23T15:17:32.302+0000] {logging_mixin.py:190} INFO - [2026-07-23T15:17:32.301+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-23T15:17:32.384+0000] {logging_mixin.py:190} INFO - [2026-07-23T15:17:32.383+0000] {dag.py:4180} INFO - Setting next_dagrun for football_world_cup_pipeline to 2026-07-23 12:00:00+00:00, run_after=2026-07-23 18:00:00+00:00
+[2026-07-23T15:17:32.468+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/football_dag.py took 2.585 seconds
+[2026-07-23T15:18:02.915+0000] {processor.py:186} INFO - Started process (PID=289) to work on /opt/airflow/dags/football_dag.py
+[2026-07-23T15:18:02.921+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/football_dag.py for tasks to queue
+[2026-07-23T15:18:02.946+0000] {logging_mixin.py:190} INFO - [2026-07-23T15:18:02.935+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/football_dag.py
+[2026-07-23T15:18:05.544+0000] {processor.py:925} INFO - DAG(s) 'football_world_cup_pipeline' retrieved from /opt/airflow/dags/football_dag.py
+[2026-07-23T15:18:05.611+0000] {logging_mixin.py:190} INFO - [2026-07-23T15:18:05.609+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-23T15:18:05.702+0000] {logging_mixin.py:190} INFO - [2026-07-23T15:18:05.701+0000] {dag.py:4180} INFO - Setting next_dagrun for football_world_cup_pipeline to 2026-07-23 12:00:00+00:00, run_after=2026-07-23 18:00:00+00:00
+[2026-07-23T15:18:05.809+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/football_dag.py took 2.942 seconds
+[2026-07-23T15:18:36.443+0000] {processor.py:186} INFO - Started process (PID=298) to work on /opt/airflow/dags/football_dag.py
+[2026-07-23T15:18:36.446+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/football_dag.py for tasks to queue
+[2026-07-23T15:18:36.454+0000] {logging_mixin.py:190} INFO - [2026-07-23T15:18:36.453+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/football_dag.py
+[2026-07-23T15:18:37.824+0000] {processor.py:925} INFO - DAG(s) 'football_world_cup_pipeline' retrieved from /opt/airflow/dags/football_dag.py
+[2026-07-23T15:18:37.894+0000] {logging_mixin.py:190} INFO - [2026-07-23T15:18:37.892+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-23T15:18:37.957+0000] {logging_mixin.py:190} INFO - [2026-07-23T15:18:37.956+0000] {dag.py:4180} INFO - Setting next_dagrun for football_world_cup_pipeline to 2026-07-23 12:00:00+00:00, run_after=2026-07-23 18:00:00+00:00
+[2026-07-23T15:18:38.021+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/football_dag.py took 1.585 seconds
+[2026-07-23T15:19:08.601+0000] {processor.py:186} INFO - Started process (PID=313) to work on /opt/airflow/dags/football_dag.py
+[2026-07-23T15:19:08.604+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/football_dag.py for tasks to queue
+[2026-07-23T15:19:08.610+0000] {logging_mixin.py:190} INFO - [2026-07-23T15:19:08.610+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/football_dag.py
+[2026-07-23T15:19:09.695+0000] {processor.py:925} INFO - DAG(s) 'football_world_cup_pipeline' retrieved from /opt/airflow/dags/football_dag.py
+[2026-07-23T15:19:09.733+0000] {logging_mixin.py:190} INFO - [2026-07-23T15:19:09.733+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-23T15:19:09.773+0000] {logging_mixin.py:190} INFO - [2026-07-23T15:19:09.772+0000] {dag.py:4180} INFO - Setting next_dagrun for football_world_cup_pipeline to 2026-07-23 12:00:00+00:00, run_after=2026-07-23 18:00:00+00:00
+[2026-07-23T15:19:09.813+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/football_dag.py took 1.234 seconds
+[2026-07-23T15:19:40.118+0000] {processor.py:186} INFO - Started process (PID=321) to work on /opt/airflow/dags/football_dag.py
+[2026-07-23T15:19:40.121+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/football_dag.py for tasks to queue
+[2026-07-23T15:19:40.128+0000] {logging_mixin.py:190} INFO - [2026-07-23T15:19:40.127+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/football_dag.py
+[2026-07-23T15:19:41.040+0000] {processor.py:925} INFO - DAG(s) 'football_world_cup_pipeline' retrieved from /opt/airflow/dags/football_dag.py
+[2026-07-23T15:19:41.080+0000] {logging_mixin.py:190} INFO - [2026-07-23T15:19:41.079+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-23T15:19:41.123+0000] {logging_mixin.py:190} INFO - [2026-07-23T15:19:41.123+0000] {dag.py:4180} INFO - Setting next_dagrun for football_world_cup_pipeline to 2026-07-23 12:00:00+00:00, run_after=2026-07-23 18:00:00+00:00
+[2026-07-23T15:19:41.165+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/football_dag.py took 1.054 seconds
+[2026-07-23T15:20:11.850+0000] {processor.py:186} INFO - Started process (PID=329) to work on /opt/airflow/dags/football_dag.py
+[2026-07-23T15:20:11.854+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/football_dag.py for tasks to queue
+[2026-07-23T15:20:11.872+0000] {logging_mixin.py:190} INFO - [2026-07-23T15:20:11.869+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/football_dag.py
+[2026-07-23T15:20:13.556+0000] {processor.py:925} INFO - DAG(s) 'football_world_cup_pipeline' retrieved from /opt/airflow/dags/football_dag.py
+[2026-07-23T15:20:13.654+0000] {logging_mixin.py:190} INFO - [2026-07-23T15:20:13.652+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-23T15:20:13.726+0000] {logging_mixin.py:190} INFO - [2026-07-23T15:20:13.725+0000] {dag.py:4180} INFO - Setting next_dagrun for football_world_cup_pipeline to 2026-07-23 12:00:00+00:00, run_after=2026-07-23 18:00:00+00:00
+[2026-07-23T15:20:13.816+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/football_dag.py took 1.988 seconds
