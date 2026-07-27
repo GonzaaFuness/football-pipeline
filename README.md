@@ -115,6 +115,17 @@ python dags\scripts\load.py
 | Mexico | South Africa | 2 | 0 | FINISHED |
 | South Korea | Czechia | 2 | 1 | FINISHED |
 
+## 📈 Dashboard interactivo
+
+El proyecto incluye un dashboard con Streamlit para visualizar los datos cargados: métricas generales, ranking de goles por equipo, distribución de partidos por fase, y tabla filtrable.
+
+```bash
+pip install streamlit plotly
+streamlit run dashboard.py
+```
+
+Se abre automáticamente en `http://localhost:8501`.
+
 ## 🔮 Posibles mejoras futuras
 
 - Dashboard de visualización (Streamlit / Metabase)
